@@ -7,7 +7,7 @@ import { cn } from "~/utils";
  * Adds button styles to any component, for use with Next.js <Link /> components.
  */
 const buttonVariants = cva(
-  "inline-flex font-mono items-center justify-center rounded-md text-sm font-semibold transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gray-900 focus-visible:ring-offset-2 disabled:opacity-50 disabled:pointer-events-none ring-offset-gray-100",
+  "inline-flex font-mono items-center justify-center rounded-full text-sm font-semibold transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gray-900 focus-visible:ring-offset-2 disabled:opacity-50 disabled:pointer-events-none ring-offset-gray-100",
   {
     variants: {
       variant: {
